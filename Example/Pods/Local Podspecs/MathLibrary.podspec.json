@@ -1,0 +1,22 @@
+{
+  "name": "MathLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of MathLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mohd Imran/MathLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mohd Imran": "mohd.imran.3pg@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Mohd Imran/MathLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MathLibrary/Classes/**/*"
+}

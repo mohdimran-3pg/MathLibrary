@@ -1,0 +1,6 @@
+framework module Pods_MathLibrary_Example {
+  umbrella header "Pods-MathLibrary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

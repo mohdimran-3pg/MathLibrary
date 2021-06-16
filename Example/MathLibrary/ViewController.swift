@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MathLibrary
 
 class ViewController: UIViewController {
 

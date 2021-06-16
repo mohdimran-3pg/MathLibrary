@@ -1,0 +1,16 @@
+PODS:
+  - MathLibrary (0.1.0)
+
+DEPENDENCIES:
+  - MathLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  MathLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MathLibrary: 72280a45f9a85d1ad61122d3e578e146b09b876f
+
+PODFILE CHECKSUM: 5e37060dbb2b3479a5e5cb7d414f782d11d936ff
+
+COCOAPODS: 1.10.1
