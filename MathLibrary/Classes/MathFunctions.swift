@@ -7,7 +7,8 @@
 
 import Foundation
 
-public struct MathFunctions {
+public class MathFunctions {
+    public init() {}
     public func add(first: Int, second: Int) -> Int {
         return first + second
     }

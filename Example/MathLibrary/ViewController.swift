@@ -13,6 +13,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let math = MathFunctions()
+        print("", math.add(first: 1, second: 2))
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

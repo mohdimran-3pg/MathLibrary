@@ -14,6 +14,9 @@
 		5811D9F3948664597B588FB2165A0F82 /* Pods-MathLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 424BE4A71D08CD65AC99C5A82DCC6B47 /* Pods-MathLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BA17C3E3BA0F51F98FCC647CE2A5379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		931DEF2A9874E982045F9759C351152F /* MathLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73C7EAB570AA85820E862D70165B41 /* MathLibrary-dummy.m */; };
+		9BDEDD17267A2133000AF939 /* MathLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 17C9C51BA39F2C60BE3FBE0CDAA05692 /* MathLibrary.podspec */; };
+		9BDEDD21267A26BC000AF939 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 9BDEDD1F267A26BC000AF939 /* .gitkeep */; };
+		9BDEDD22267A26BC000AF939 /* MathFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEDD20267A26BC000AF939 /* MathFunctions.swift */; };
 		B4D1066A5C025753A8E288FB48225034 /* MathLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A3D205C4A414C8607ADE101BF2B8B6 /* MathLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAB4C3A28DE173AA69D39F3D4AB87734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -56,7 +59,8 @@
 		850BF9227CEBAE4E9EF0AB42F727FDE1 /* Pods-MathLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MathLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		885E7CC4345521E9708F2C2F728B9FE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		88A3D205C4A414C8607ADE101BF2B8B6 /* MathLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MathLibrary-umbrella.h"; sourceTree = "<group>"; };
-		9BDEDD0F267A192B000AF939 /* MathFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathFunctions.swift; sourceTree = "<group>"; };
+		9BDEDD1F267A26BC000AF939 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		9BDEDD20267A26BC000AF939 /* MathFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathFunctions.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E73C7EAB570AA85820E862D70165B41 /* MathLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MathLibrary-dummy.m"; sourceTree = "<group>"; };
 		9E907F56E5D61323AE6BB3A8BB0A4E3A /* MathLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MathLibrary-prefix.pch"; sourceTree = "<group>"; };
@@ -159,6 +163,16 @@
 			path = "Target Support Files/Pods-MathLibrary_Tests";
 			sourceTree = "<group>";
 		};
+		9BDEDD1E267A26BC000AF939 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9BDEDD1F267A26BC000AF939 /* .gitkeep */,
+				9BDEDD20267A26BC000AF939 /* MathFunctions.swift */,
+			);
+			name = Classes;
+			path = MathLibrary/Classes;
+			sourceTree = "<group>";
+		};
 		9CAFB51B6AF6FD51C239D320C1FD5ED2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,10 +220,10 @@
 		CF81BE8AA5E91850CF0FC16C864495B2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				9BDEDD1E267A26BC000AF939 /* Classes */,
 				885E7CC4345521E9708F2C2F728B9FE1 /* LICENSE */,
 				17C9C51BA39F2C60BE3FBE0CDAA05692 /* MathLibrary.podspec */,
 				DD394995C40EB74ABFD1E5AE34491B47 /* README.md */,
-				9BDEDD0F267A192B000AF939 /* MathFunctions.swift */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -349,6 +363,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDEDD17267A2133000AF939 /* MathLibrary.podspec in Resources */,
+				9BDEDD21267A26BC000AF939 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				931DEF2A9874E982045F9759C351152F /* MathLibrary-dummy.m in Sources */,
+				9BDEDD22267A26BC000AF939 /* MathFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
